@@ -5,14 +5,15 @@
 * Some rules have been included here to give you a head start.
 * Create your own custom CSS rules below. Have fun!
 ******************************************************/
-html, body {
+html, body {;
 	margin: 0;
 	box-sizing: border-box;
 }
 
-.container {
-	margin: 0 auto;
+.container {text-align: center;
+	margin: auto;
 	padding: 0 2rem;
+	border: black;
 }
 
 .clearfix {
@@ -31,6 +32,10 @@ html, body {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.container { width: 750px; }
 }
+
+
+/* Section Class- About Me*/
+
 
 /*****************************************************
 * Flexbox Sticky Footer
@@ -61,6 +66,39 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
+
+
+/* Heading Section */
+header {
+	background: black;
+}
+h1 {
+	text-align: center;
+	font-family: Arial, Helvetica;
+	font-size: 200%;
+	color: chartreuse;
+	text-decoration: none;
+}
+em {
+	color: chartreuse;
+	font-family: Tahoma;
+	text-align: center;
+}
+
+instruction content {
+	border-color: black;
+	border-width: 30px;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+}
+
+container {
+
+}
+
+/* welcome image */
+
+
 
 
 
