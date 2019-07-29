@@ -13,7 +13,9 @@ html, body {;
 .container {text-align: center;
 	margin: auto;
 	padding: 0 2rem;
-	border: black;
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
 }
 
 .clearfix {
@@ -70,11 +72,11 @@ body { width: 100%;}
 
 /* Heading Section */
 header {
-	background: black;
+	background: #333333;
 }
 h1 {
 	text-align: center;
-	font-family: Arial, Helvetica;
+	font-family: SansSerif, Helvetica;
 	font-size: 200%;
 	color: chartreuse;
 	text-decoration: none;
@@ -85,19 +87,15 @@ em {
 	text-align: center;
 }
 
-instruction content {
-	border-color: black;
-	border-width: 30px;
-	flex-direction: row-reverse;
-	justify-content: flex-end;
-}
-
-container {
-
-}
-
 /* welcome image */
 
+/* blue section */
+section.about-me {
+	background: blue;
+	color: white;
+}
+
+/*footer*/
 
 
 
